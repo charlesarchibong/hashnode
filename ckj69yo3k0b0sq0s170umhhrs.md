@@ -9,7 +9,7 @@ In this article, I will unveil the most effective way to implement this in a Flu
 
 # Implementation
 
-[Data_connection_checker](https://pub.dev/packages/data_connection_checker) has the effective implementation for device internet connection check. The package opens a socket connection to some list of DNS (safe and secured addresses like Google DNS) and if any of the DNS returns data it’s then marked that the device is connected to the internet. 
+[Data_connection_checker](https://pub.dev/packages/data_connection_checker) is a flutter package that has an effective implementation for device internet connection check. The package opens a socket connection to some list of DNS (safe and secured addresses like Google DNS) and if any of the DNS returns data it’s then marked that the device is connected to the internet. 
 
 #### Step 1: 
 Add the package to your pubspec.yaml file
